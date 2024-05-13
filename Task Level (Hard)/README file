@@ -1,0 +1,31 @@
+Anime Recommendation System :
+As an anime enthusiast myself, I've developed a recommendation system tailored for fellow fans. 
+Drawing from a dataset sourced from Kaggle, it encompasses anime details like title, genre, episodes, and user ratings.
+
+The recommendation system encompasses the following components:
+
+1. Data Cleaning
+The dataset undergoes thorough cleaning to handle missing values, inconsistent formatting, and any anomalies that
+may affect the recommendation process. This ensures the integrity and quality of the data for further analysis.
+
+2. Exploratory Analysis
+Exploratory data analysis (EDA) is performed to gain insights into the distribution of anime attributes, user ratings,
+and member demographics. Visualization techniques are employed to identify trends, correlations, and patterns within the 
+dataset.
+
+3. Content-Based Filtering
+The recommendation system utilizes content-based filtering techniques to suggest anime titles based on similarity 
+measures between their attributes (e.g., genre, episodes, rating) and user preferences. This approach enables personalized 
+recommendations tailored to individual user tastes.
+
+4. Collaborative-Based Filtering
+Collaborative filtering methods are employed to generate recommendations by leveraging user-item interactions and 
+similarities between users or items. By analyzing user ratings and preferences, the system identifies similar users or 
+items to propose relevant anime titles.
+
+5. Dataset
+The dataset used in this project comprises anime details and user ratings sourced from Kaggle. It includes information 
+such as title, genre, episodes, rating, and user interactions, providing a comprehensive foundation for building the 
+recommendation system.
+
+original dataset : https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database?resource=download
